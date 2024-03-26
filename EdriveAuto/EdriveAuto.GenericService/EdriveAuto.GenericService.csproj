@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>E-Drive Auto</Copyright>
+	<VersionPrefix>2.0.2</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EdriveAuto.DTO\EdriveAuto.DTO.csproj" />
+    <ProjectReference Include="..\EdriveAuto.GenericRepository\EdriveAuto.GenericRepository.csproj" />
+  </ItemGroup>
+
+</Project>
